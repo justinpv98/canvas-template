@@ -14,7 +14,7 @@ class App {
   }
 
   resize() {
-    this.stageHeight = document.body.clientWidth;
+    this.stageWidth = document.body.clientWidth;
     this.stageHeight = document.body.clientHeight;
 
     this.canvas.width = this.stageWidth * this.pixelRatio;
